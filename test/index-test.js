@@ -19,18 +19,4 @@ describe( 'this lab', () => {
 
 } )
 
-describe( 'the local repository', () => {
 
-  it( 'has README.md as a tracked file', () => {
-    chai.assert.pathExists( './my-repository/.git/index', 'no files are being tracked.  Use "git add ." to track all files in this repo' );
-  } )
-
-  it( 'has at least one commit', () => {
-    chai.assert.isDirectory( './my-repository/.git/logs', 'no commits were found.  Use "git commit -m" followed by a message to create a commit' );
-  } )
-
-  it( 'has been pushed up to the remote repository', () => {
-    chai.assert.isDirectory( './my-repository/.git/logs/refs/remotes', 'no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository' );
-  } )
-
-} )
