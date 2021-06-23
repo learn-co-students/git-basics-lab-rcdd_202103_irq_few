@@ -1,4 +1,5 @@
-# Git Basics Lab
+
+learn# Git Basics Lab
 
 ## Learning Goals
 
@@ -81,7 +82,7 @@ tests to let us know when we're all done.
 ## Instructions
 
 > ***IMPORTANT TIPS TO AVOID GETTING STUCK***
-> 
+>
 > 1. The work you will do to set up the Git repository will be done in the
 >    `my-repository` directory (after you create it ;)). If you're doing `git`
 >    commands in the same directory as THIS `README` that you're reading right
@@ -130,7 +131,7 @@ As we saw above, there are **six** broken tests. Let's get them working.
 
 7. Change _back_ to the top-level directory, run `learn`, and you'll see that
    the test output is looking pretty successful:
-   
+
 ```text
   this lab
     ✓ has a folder named my-repository
